@@ -1,9 +1,31 @@
-In the 2nd assessment of Meta Crafter we have to create a token. This repository contains a Solidity smart contract that defines a basic token named "Nobita". 
-Below, you'll find details about the contract, including its features, instructions, and usage. Features: Token Details:Publicly accessible variables that 
-store the token's name, abbreviation, and total supply. Balances Mapping: A mapping that keeps track of each address's token balance.
-Mint Function: Increases the total supply and the balance of a specified address. Burn Function: Decreases the total supply and the balance
-of a specified address, with a check to ensure sufficient balance.The contract is implemented in Solidity and includes the following key components: Public Variables
-tokenName: The name of the token ("Nobita"). tokenAbbrv: The abbreviation of the token ("Nobi"). totalSupply: The total supply of tokens in existence.
-Balances Mapping balances: A mapping from addresses to their respective token balances.
-Mint Function The mint function increases the total supply and the balance of a specified address.
-Burn Function The burn function decreases the total supply and the balance of a specified address, ensuring the balance is sufficient before performing the operation.
+Title: MyToken 
+
+Description:
+
+This Solidity contract implements a basic token named "[Nobita]" with the abbreviation [Nobi]". It allows for minting and burning of tokens, but currently doesn't include transfer functionality.
+
+Features:
+
+Stores token name, abbreviation, and total supply.
+Mints tokens to an address and increases the total supply.
+Burns tokens from an address and decreases the total supply (with balance check).
+How to Use:
+
+Compile the contract using a Solidity compiler (e.g., solc).
+Deploy the contract to a blockchain network.
+Use the mint function to mint tokens to an address.
+Use the burn function to burn tokens from an address (ensure sufficient balance).
+Further Considerations:
+
+This is a basic implementation and lacks features like token transfer and access control.
+Consider adding events for minting and burning to track these actions on the blockchain.
+Implement an ownership mechanism to restrict minting and burning to authorized users.
+
+License:
+
+MIT License (refer to SPDX-License-Identifier)
+
+Contact:
+
+[Name-Shubhma/Email-shubhamthakur466420@gmail.com]
+
